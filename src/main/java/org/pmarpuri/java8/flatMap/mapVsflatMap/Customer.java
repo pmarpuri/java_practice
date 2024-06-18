@@ -1,4 +1,4 @@
-package org.pmarpuri.java8.flatMap;
+package org.pmarpuri.java8.flatMap.mapVsflatMap;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,8 +9,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class Customer {
+    private int id;
     private String name;
-    private String phone;
-    private List<String> email;
- }
+    private String email;
+    private List<String> phoneNumbers;
+}
